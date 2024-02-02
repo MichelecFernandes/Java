@@ -1,20 +1,17 @@
+package br.com.alura.screenmatch.principal;
+
 import br.com.alura.screenmatch.calculos.CalculadoraTempo;
 import br.com.alura.screenmatch.calculos.FiltroRecomendacao;
-import br.com.alura.screenmatch.calculos.Pesssoa;
 import br.com.alura.screenmatch.modelos.Episodio;
 import br.com.alura.screenmatch.modelos.Filme;
 import br.com.alura.screenmatch.modelos.Serie;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 
 public class Main {
     public static void main(String[] args) {
-        Filme primeiroFilme = new Filme();
-        primeiroFilme.setNome("Star Wars");
-        primeiroFilme.setAnoLancamento(2024);
-
+        Filme primeiroFilme = new Filme("Star Wars", 2023);
         primeiroFilme.exibirTela();
         primeiroFilme.avaliaFilme(7.0);
         primeiroFilme.avaliaFilme(8.0);
@@ -26,13 +23,13 @@ public class Main {
 
         System.out.println((primeiroFilme.getDuracaoMinutos()));
 
-        Serie primeiraSerie = new Serie(5, false, 5, 80);
-        primeiraSerie.setNome("Lá casa");
+        Serie primeiraSerie = new Serie("Lá casa", 2024);
+
         System.out.println(primeiraSerie.getNome());
         System.out.println("Duração para maratonar: " + primeiraSerie.getDuracaoMinutos());
 
-        Filme segundoFilme = new Filme();
-        segundoFilme.setNome("Avatar");
+        Filme segundoFilme = new Filme("Avatar", 2024);
+
         segundoFilme.setAnoLancamento(2024);
         segundoFilme.setDuracaoMinutos(200);
 
