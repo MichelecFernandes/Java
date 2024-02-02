@@ -8,6 +8,11 @@ public class Titulo {
     private boolean incluidoPLano;
     private int totalAvaliacoes;
 
+    public Titulo(String nome, int anoLancamento) {
+        this.nome = nome;
+        this.anoLancamento = anoLancamento;
+    }
+
     public void exibirTela(){
         System.out.println("O nome do filme é: " + this.nome);
         System.out.println("O ano de lançamento foi: " + this.anoLancamento);
