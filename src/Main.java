@@ -1,5 +1,6 @@
 import br.com.alura.screenmatch.calculos.CalculadoraTempo;
 import br.com.alura.screenmatch.calculos.FiltroRecomendacao;
+import br.com.alura.screenmatch.calculos.Pesssoa;
 import br.com.alura.screenmatch.modelos.Episodio;
 import br.com.alura.screenmatch.modelos.Filme;
 import br.com.alura.screenmatch.modelos.Serie;
@@ -62,6 +63,24 @@ public class Main {
         listaFilmes.add(segundoFilme);
         System.out.println("Retorne o tamanhao da lista: " + listaFilmes.size());
         System.out.println("Retorne o primeiro elemento da lista: " + listaFilmes.get(0).getNome());
+        System.out.println(listaFilmes);
+
+        //**************** Exercicio Alura ****************
+
+//        Pesssoa pessoa1 = new Pesssoa();
+//        pessoa1.setNome("Carlos");
+//        pessoa1.setIdade(45);
+//
+//        Pesssoa pessoa2 = new Pesssoa();
+//        pessoa2.setNome("Maria");
+//        pessoa2.setIdade(21);
+//
+//        ArrayList<Pesssoa> pessoa = new ArrayList<>();
+//        pessoa.add(pessoa1);
+//        pessoa.add(pessoa2);
+//        System.out.println("Tamanho da lista de pessoas é: " + pessoa.size());
+//        System.out.println("Pirmeira pessoa da lista: " + pessoa.get(0).getNome());
+//        System.out.println("Todos da lista: " + pessoa);
 
 
 
