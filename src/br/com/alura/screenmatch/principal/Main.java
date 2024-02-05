@@ -8,7 +8,6 @@ import br.com.alura.screenmatch.modelos.Serie;
 
 import java.util.ArrayList;
 
-
 public class Main {
     public static void main(String[] args) {
         Filme primeiroFilme = new Filme("Star Wars", 2023);
@@ -54,7 +53,6 @@ public class Main {
         episodio.setTotalVisualizacoes(300);
         filtro.filtra(episodio);
 
-
         ArrayList<Filme> listaFilmes = new ArrayList<>();
         listaFilmes.add(primeiroFilme);
         listaFilmes.add(segundoFilme);
@@ -62,24 +60,22 @@ public class Main {
         System.out.println("Retorne o primeiro elemento da lista: " + listaFilmes.get(0).getNome());
         System.out.println(listaFilmes);
 
-        //**************** Exercicio Alura ****************
+        // **************** Exercicio Alura ****************
 
-//        Pesssoa pessoa1 = new Pesssoa();
-//        pessoa1.setNome("Carlos");
-//        pessoa1.setIdade(45);
-//
-//        Pesssoa pessoa2 = new Pesssoa();
-//        pessoa2.setNome("Maria");
-//        pessoa2.setIdade(21);
-//
-//        ArrayList<Pesssoa> pessoa = new ArrayList<>();
-//        pessoa.add(pessoa1);
-//        pessoa.add(pessoa2);
-//        System.out.println("Tamanho da lista de pessoas é: " + pessoa.size());
-//        System.out.println("Pirmeira pessoa da lista: " + pessoa.get(0).getNome());
-//        System.out.println("Todos da lista: " + pessoa);
-
-
+        // Pesssoa pessoa1 = new Pesssoa();
+        // pessoa1.setNome("Carlos");
+        // pessoa1.setIdade(45);
+        //
+        // Pesssoa pessoa2 = new Pesssoa();
+        // pessoa2.setNome("Maria");
+        // pessoa2.setIdade(21);
+        //
+        // ArrayList<Pesssoa> pessoa = new ArrayList<>();
+        // pessoa.add(pessoa1);
+        // pessoa.add(pessoa2);
+        // System.out.println("Tamanho da lista de pessoas é: " + pessoa.size());
+        // System.out.println("Pirmeira pessoa da lista: " + pessoa.get(0).getNome());
+        // System.out.println("Todos da lista: " + pessoa);
 
     }
 }
